@@ -2,6 +2,7 @@ QUESTION:
 Given a string S consisting of lowercase Latin Letters. Find the first non repeating character in S.
 
 ANSWER:
+
 t= int(input())
 T=0
 while(T<t):
