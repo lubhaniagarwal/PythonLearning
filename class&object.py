@@ -18,6 +18,10 @@ class Student(College):
     def printDetails(self):
         print("Student Name:",self.name)
         print("Student Roll Number:",self.rollno)
+    
+    @classmethod
+    def is_Student(cls): #static method
+        print("is Student:",cls.isStudent)
         
         
 #main code
@@ -25,4 +29,5 @@ S= Student("lubhani",92)
 S.getCollege("igdtuw")
 S.printCollege()
 S.printDetails()
+Student.is_Student()
 print(Student.isStudent)
