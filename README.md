@@ -15,8 +15,11 @@ I learned dictionary, how to implement it.
 Studied various function used in dictionary.
 Used function-get() to access the Key.
 
-Class and Object and Inheritance-->
-I learned about Class and objects, with different types of constructor.Different types of variables:Static and Instance Variable.
+Class and Object-->
+I learned about Class and objects, with different types of constructor.Different types of variables: Static and Instance Variable.
 I learned the concept of inheritance and also how to make calls to base class and derived class.
-In this question I implemented single level inheritance.
+In these questions I implemented single level inheritance.
 Also I implemented multiple Inheritance and used the concept of Encapsulation,polymorphism and abstract class(method overriding). 
+
+Interface-->
+I learned about Interface, formal and informal interface.How Interface is different from abstract class and implemented formal and informal interface.
