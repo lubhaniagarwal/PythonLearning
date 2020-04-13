@@ -9,7 +9,7 @@ class College:
         print("Your college is:", self.clg_name)
         
 class Student(College):
-    
+    isStudent="yes" #static variable
     def __init__(self,name,rollno):
         print("This is parametrized constructor")
         self.name=name
@@ -25,3 +25,4 @@ S= Student("lubhani",92)
 S.getCollege("igdtuw")
 S.printCollege()
 S.printDetails()
+print(Student.isStudent)
